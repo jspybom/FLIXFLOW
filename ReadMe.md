@@ -10,6 +10,16 @@ NETFLUX brings nonstop entertainment to users with unlimited movies, shows, and 
 
 ---
 
+## Snapshot Of the project
+
+<p align = "center">
+   <img src="https://cdn.discordapp.com/attachments/865420585437102090/1425192218460688415/image.png?ex=68e6b12f&is=68e55faf&hm=145719511edb70c6a0817fe42a4455325b7be0547bb711e67e483b26eb3ddc41&" height="100" width="100"/>
+<img src="https://cdn.discordapp.com/attachments/865420585437102090/1425192646707646564/image.png?ex=68e6b195&is=68e56015&hm=3d688ab14f1e77ff6ba62b55472ef54e856dd31600c7231f87d7f5564bf197eb&" height="100" width="100"/>
+<img src="https://cdn.discordapp.com/attachments/865420585437102090/1425192874663874570/image.png?ex=68e6b1cc&is=68e5604c&hm=e8b2b962bb424d26773ff67b855f81461280784b8fa7b404fd8d9b8ae6226f84&" height="100" width="100"/>
+<img src="https://cdn.discordapp.com/attachments/865420585437102090/1425192950639624214/image.png?ex=68e6b1de&is=68e5605e&hm=0f02735cf5eff6d74e0b11d4f065d74461007eb4e8530015cd1465d2e0cf45e9&" height="100" width="100"/>
+</p>
+
+---
 ## The Challenge: Delivering Flawless Video in a Competitive Market
 
 The Over-The-Top (OTT) streaming market is incredibly competitive. To succeed, a new platform needs more than just great content—it requires a flawless technical execution. The primary challenge was to build a robust, scalable, and secure streaming service that could deliver high-quality video content to thousands of concurrent users with minimal latency, buffering and in cheap price.
@@ -24,9 +34,6 @@ Gamespacelab engineered NetFlux from the ground up, focusing on two core princip
 
 Our solution ensures that from the moment a user presses play, the experience is smooth, fast, and high-quality.
 
-## Snapshot Of the project
-
-<img link="" />
 
 ### Key Features
 
@@ -44,12 +51,12 @@ Our solution ensures that from the moment a user presses play, the experience is
 Building a world-class streaming service requires a specialized and highly scalable tech stack. We leveraged industry-leading cloud services and frameworks to ensure reliability and performance.
 
 1. **Cross-Platform App:** **FlutterFlow** was used to build the iOS and Android applications, allowing for a consistent user experience and rapid development.
-2. **Backend:** A scalable backend was built with **Node.js** and hosted on AWS, designed to handle millions of API calls.
+2. **Backend:** A scalable backend was built with **Kotlin** and hosted on AWS, designed to handle millions of API calls.
 3. **Cloud Infrastructure (AWS):** We utilized a suite of Amazon Web Services for the heavy lifting:
     * **AWS S3:** For secure and durable video file storage.
     * **AWS Elemental MediaConvert:** For automated video transcoding into various formats and bitrates.
     * **Amazon CloudFront:** As the Content Delivery Network (CDN) to deliver video to users globally with low latency.
-4. **Database:** **PostgreSQL** was used for managing user data, subscriptions, and content metadata.
+4. **Database:** **SupaBase** was used for managing user data, subscriptions, and content metadata.
 
 
 
